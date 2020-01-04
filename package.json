@@ -1,0 +1,19 @@
+{
+  "name": "javascript-prototype-chain-visualizer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "p5.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yusuf-alii/Javascript-Prototype-Chain-Visualizer.git"
+  },
+  "author": "Yusuf Ali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yusuf-alii/Javascript-Prototype-Chain-Visualizer/issues"
+  },
+  "homepage": "https://github.com/yusuf-alii/Javascript-Prototype-Chain-Visualizer#readme"
+}
