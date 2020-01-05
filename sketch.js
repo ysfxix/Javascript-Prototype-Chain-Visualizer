@@ -1,3 +1,4 @@
+var objs;
 let font,
   fontsize = 20;
 let objMargin = 85;
@@ -22,7 +23,7 @@ function setup() {
 function draw() {
   background(100,100,100,100);
 
-  let objs = objFactory.getAll();
+  objs = objFactory.getAll();
 
   objs.forEach((o) => {
     o.display();
