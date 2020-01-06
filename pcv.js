@@ -1,12 +1,5 @@
-function PcvObject(x, y, name){ 
-  this.x = x;
-  this.y = y;
+function PcvObject(name){ 
   this.name = name;
-  this.nameXMargin = 25;
-  this.nameX = this.x + this.nameXMargin;
-  this.nameY = this.y - 15;
-  
-
 }
 
 //var objs = []; // we'll store the object references in this array
@@ -34,14 +27,12 @@ function walkTheObject( obj ) {
 
 
 
-PcvObject.prototype.display = function(){ 
-  noStroke(0);
-  // ellipse(this.x, this.y, 5);
-  square(this.x, this.y, 50);
-  text(this.name, this.nameX, this.nameY);
-  //fill(0, 102, 153);
-  
-  
+PcvObject.prototype.getName = function(){ 
+  return this.name;
+}
+
+PcvObject.prototype.setName = function(name){ 
+  this.name = name;
 }
 
 
