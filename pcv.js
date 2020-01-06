@@ -1,4 +1,4 @@
-function PcvObject(name){ 
+function Employee(name){ 
   this.name = name;
 }
 
@@ -27,11 +27,11 @@ function walkTheObject( obj ) {
 
 
 
-PcvObject.prototype.getName = function(){ 
+Employee.prototype.getName = function(){ 
   return this.name;
 }
 
-PcvObject.prototype.setName = function(name){ 
+Employee.prototype.setName = function(name){ 
   this.name = name;
 }
 

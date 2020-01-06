@@ -1,6 +1,6 @@
 function ObjectFactory(){
   this.x = screen.width/2;
-  this.y = 10;
+  this.y = 50;
   this.objMargin = 85;
   this.nameXMargin = 25;
   this.nameX = this.x + this.nameXMargin;
@@ -23,9 +23,7 @@ ObjectFactory.prototype.setup = function(){
 }
   
   ObjectFactory.prototype.create = function(obj, objX, objY){
-    // let tmp = new PcvObject(x, y, name);
-    //let tmp = new obj;
-    
+    // let tmp = new PcvObject(x, y, name);    
     let count = this.instances.push(obj);
     this.instances[count-1].x = this.x;
     this.instances[count-1].y = this.y;

@@ -20,6 +20,7 @@ function createObject() {
   
   //objs.push(new PcvObject(objX, objY, objName));
   // objFactory.create(objX, objY, objName);
-  objFactory.create(new PcvObject(objName));
+  objFactory.create(new Employee(objName));
   document.getElementById("objectCount").innerHTML = objFactory.getObjectCount();
+  document.getElementById("objName").value = "";
 }
